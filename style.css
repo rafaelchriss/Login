@@ -1,0 +1,68 @@
+/*Fundo da página */
+body{
+    background-color: black; /*Definir a cor do fundo do nosso site*/
+    font-family: Arial, sans-serif; /*fonte Arial melhora a fonte do nosso site*/
+    margin: 0;
+    padding: 0;
+}
+
+/*Centralizar o conteúdo da tela*/
+#container{
+    display: flex; /* display flex para ajustar os elementos*/
+    justify-content: center;  /*centralizar horizontalmente*/
+    align-items: center; /*centraizando verticalmente*/
+    height: 100vh; /*Altura total da tela*/
+}
+/* caixa de login */
+.login-box{
+    background-color: white; /*Definir a cor do fundo do nosso formulario na div*/
+    padding: 30px; /*Espaço interno*/
+    border-radius: 10px; /*bordas arredondas*/
+    box-shadow:  0 0 15px white; /*Sombra branca*/
+    width: 300px; /*Largura Fixa*/
+}
+
+/*Título da área de login*/
+h2{
+    text-align: center; /*centraliza o texto no centro*/
+    color: black;
+}
+
+label{
+    display: block; /*cada label em uma linha*/
+    margin-top: 15px; /*Espaço acima do label*/
+    color: dimgray;
+}
+
+/*Campos de Entrada*/
+input[type="text"],
+input[type="password"]{
+    width: 100%; /*Ocupa toda a largura */
+    padding: 10px; /*Espaço interno*/
+    margin-top: 5px; /*Espaco a cima*/
+    border: 1px solid gray; /*Borda Cinza*/
+    border-radius: 5px; /*Bordas arrendondadas*/
+}
+/*Área do checkbox*/
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: dimgray;
+}
